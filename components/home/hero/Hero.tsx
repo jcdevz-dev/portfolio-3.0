@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 import { StandardButton } from "@/components/buttons/StandardButton";
 import { Reveal } from "@/components/utils/Reveal";
 import { DotGrid } from "./DotGrid";
@@ -35,7 +36,10 @@ export const Hero = () => {
             </StandardButton>
           </Reveal>
         </div>
-        <Reveal>
+        <motion.div
+          initial={{ y: -30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.4 }}>
           <Image
             className={styles.profile}
             src={Profile}
@@ -44,7 +48,7 @@ export const Hero = () => {
             width={250}
             height={250}
           />
-        </Reveal>
+        </motion.div>
       </div>
       <DotGrid />
     </section>

@@ -56,8 +56,9 @@
   outline: solid;
   outline-width: 4px;
   outline-color: var(--brand);
-  outline-offset: 12px;
+  outline-offset: 9px;
   transition: .2s;
+  
   &:hover {
     outline: dotted;
     outline-width: 4px;

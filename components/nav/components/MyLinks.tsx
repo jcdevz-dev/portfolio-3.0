@@ -25,7 +25,7 @@ export const MyLinks = () => {
       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
+        transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Link href="https://join.skype.com/invite/vKVMgi5SGjvM" target="_blank" rel="nofollow">
           <AiFillSkype size="2.4rem" />
@@ -35,7 +35,7 @@ export const MyLinks = () => {
       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.1 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
       >
         <Link href="https://github.com/jcdevz-dev" target="_blank" rel="nofollow">
           <AiFillGithub size="2.4rem" />
@@ -45,7 +45,7 @@ export const MyLinks = () => {
       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
       >
         <Link href="https://www.instagram.com/aluckyfin/" target="_blank" rel="nofollow">
           <AiFillInstagram size="2.4rem" />
@@ -55,7 +55,7 @@ export const MyLinks = () => {
       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
       >
         <Link href="https://www.youtube.com/@aluckyfinsenpai2622" target="_blank" rel="nofollow">
           <AiFillYoutube size="2.4rem" />

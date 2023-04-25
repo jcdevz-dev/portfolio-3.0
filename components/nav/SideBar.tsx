@@ -32,7 +32,9 @@ export const SideBar = () => {
       transition={{ duration: 0.5 }}
       className={styles.sideBar}
     >
-      <span className={styles.logo} onClick={() => document.getElementById("main")?.scrollIntoView()}>
+      <span className={styles.logo} onClick={() => {
+        document.location.hash = '#';
+        }}>
         JC<span>.</span>
       </span>
       <motion.a
