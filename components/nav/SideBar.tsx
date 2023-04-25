@@ -33,7 +33,9 @@ export const SideBar = () => {
       className={styles.sideBar}
     >
       <span className={styles.logo} onClick={() => {
-        document.location.hash = '#';
+        document.location.hash === "" ?
+        document.getElementById("main")?.scrollIntoView() :
+        document.location.hash = '';
         }}>
         JC<span>.</span>
       </span>

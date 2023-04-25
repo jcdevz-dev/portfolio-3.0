@@ -76,10 +76,11 @@
 
   @media (max-width: 768px) {
     flex-direction: column-reverse;
-    align-items:first baseline;
+    align-items: start;
     flex-wrap: wrap;
 
     .profile {
+      margin-top: 6rem;
       margin-left: 2rem;
     }
   }
