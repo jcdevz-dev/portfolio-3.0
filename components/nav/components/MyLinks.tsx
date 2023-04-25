@@ -52,7 +52,7 @@ export const MyLinks = () => {
         </Link>
       </motion.span>
 
-      <motion.span
+      {/* <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.4 }}
@@ -60,7 +60,7 @@ export const MyLinks = () => {
         <Link href="https://www.youtube.com/@aluckyfinsenpai2622" target="_blank" rel="nofollow">
           <AiFillYoutube size="2.4rem" />
         </Link>
-      </motion.span>
+      </motion.span> */}
     </div>
   );
 };

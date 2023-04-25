@@ -3,7 +3,7 @@
   border: none;
   cursor: pointer;
 
-  padding: 1.2rem 2.4rem;
+  padding: 1rem 2rem;
 
   border: 1px solid var(--brand);
   background: transparent;
@@ -17,6 +17,18 @@
   overflow: hidden;
 
   transition: 0.2s color;
+
+  svg {
+    display: none;
+  }
+
+  @media (max-width: 420px) {
+    font-size: 0;
+    padding: .5rem .5rem;
+    svg {
+      display: block;
+    }
+  }
 }
 
 .outlineButton::before {
@@ -35,7 +47,7 @@
 }
 
 .outlineButton:hover {
-  color: var(--background-dark);
+  color: var(--text);
 }
 
 .outlineButton:hover::before {

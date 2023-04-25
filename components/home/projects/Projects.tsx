@@ -88,7 +88,7 @@ const projects = [
     projectLink: "https://worshiphim.vercel.app/",
     tech: ["React", "Nextjs", "Tailwind", "Google Play Scrapper", "Ko-Fi"],
     description:
-      "Landing Page of WorshipHIM mobile application for showcasing feature rich and awesome tools of the app.",
+      "Landing Page of WorshipHIM mobile application for showcasing feature rich and tools of the app.",
     modalContent: (
       <>
         <p>This is another self project that i made to showcase our mobile app.</p>

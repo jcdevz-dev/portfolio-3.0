@@ -64,10 +64,10 @@ export const Project = ({
             priority
             src={imgSrc}
             alt={`An image of the ${title} project.`}
-            width={300}
-            height={220}
+            width={500}
+            height={180}
             style={{
-              width: hovered ? "90%" : "85%",
+              width: hovered ? "90% !important" : "85% !important",
               rotate: hovered ? "2deg" : "0deg",
             }}
           />

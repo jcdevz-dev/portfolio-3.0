@@ -70,7 +70,7 @@ export const SideBar = () => {
           onClick={() => setSelected("experience")}
           className={selected === "experience" ? styles.selected : ""}
         >
-          Experinece
+          Exp.
         </motion.a>
         <motion.a
           initial={{ x: -70 }}
