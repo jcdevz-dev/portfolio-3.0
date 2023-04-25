@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Reveal } from "@/components/utils/Reveal";
 import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
@@ -5,7 +6,6 @@ import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
-import Image from "next/image";
 interface Props {
   modalContent: JSX.Element;
   description: string;
@@ -61,6 +61,7 @@ export const Project = ({
           className={styles.projectImage}
         >
           <Image
+            priority
             src={imgSrc}
             alt={`An image of the ${title} project.`}
             width={300}
