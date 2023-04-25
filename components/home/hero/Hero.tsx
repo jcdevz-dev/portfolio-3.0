@@ -35,22 +35,16 @@ export const Hero = () => {
             </StandardButton>
           </Reveal>
         </div>
-        <div className={styles.profile}>
+        <Reveal>
           <Image
+            className={styles.profile}
             src={Profile}
             priority
             alt="John Carlo Devera | Frontend Developer"
             width={250}
             height={250}
-            style={{
-              borderRadius: "50%",
-              outline: "solid",
-              outlineWidth: 4,
-              outlineColor: "var(--brand)",
-              outlineOffset: 12,
-            }}
           />
-        </div>
+        </Reveal>
       </div>
       <DotGrid />
     </section>

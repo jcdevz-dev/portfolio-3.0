@@ -48,8 +48,22 @@
 }
 
 .profile {
+  margin: 2rem;
   z-index: 10;
+  position: relative;
   margin-right: 9rem;
+  border-radius: 50%;
+  outline: solid;
+  outline-width: 4px;
+  outline-color: var(--brand);
+  outline-offset: 12px;
+  transition: .2s;
+  &:hover {
+    outline: dotted;
+    outline-width: 4px;
+    outline-color: var(--brand);
+    outline-offset: 5px;
+  }
 }
 
 .heroGrid {
@@ -65,7 +79,7 @@
     flex-wrap: wrap;
 
     .profile {
-      margin-left: 0.5rem;
+      margin-left: 2rem;
     }
   }
 }
