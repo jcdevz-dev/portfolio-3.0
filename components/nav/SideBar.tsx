@@ -32,8 +32,8 @@ export const SideBar = () => {
       transition={{ duration: 0.5 }}
       className={styles.sideBar}
     >
-      <span className={styles.logo}>
-        B<span>.</span>
+      <span className={styles.logo} onClick={() => document.getElementById("main")?.scrollIntoView()}>
+        JC<span>.</span>
       </span>
       <motion.a
         initial={{ x: -70 }}
@@ -65,7 +65,7 @@ export const SideBar = () => {
         onClick={() => setSelected("experience")}
         className={selected === "experience" ? styles.selected : ""}
       >
-        Exp.
+        Experinece
       </motion.a>
       <motion.a
         initial={{ x: -70 }}

@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
-
+import Image from "next/image";
 interface Props {
   modalContent: JSX.Element;
   description: string;
@@ -60,14 +60,24 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}
         >
-          <img
+          <Image
+            src={imgSrc}
+            alt={`An image of the ${title} project.`}
+            width={300}
+            height={240}
+            style={{
+              width: hovered ? "90%" : "85%",
+              rotate: hovered ? "2deg" : "0deg",
+            }}
+          />
+          {/* <img
             src={imgSrc}
             alt={`An image of the ${title} project.`}
             style={{
               width: hovered ? "90%" : "85%",
               rotate: hovered ? "2deg" : "0deg",
             }}
-          />
+          /> */}
         </div>
         <div className={styles.projectCopy}>
           <Reveal width="100%">
@@ -90,6 +100,7 @@ export const Project = ({
           <Reveal>
             <p className={styles.projectDescription}>
               {description}{" "}
+              <br/>
               <span onClick={() => setIsOpen(true)}>Learn more {">"}</span>
             </p>
           </Reveal>

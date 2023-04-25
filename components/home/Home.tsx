@@ -13,7 +13,7 @@ export const Home = () => {
     <>
       <div className={styles.home}>
         <SideBar />
-        <main>
+        <main id="main">
           <Heading />
           <Hero />
           <About />

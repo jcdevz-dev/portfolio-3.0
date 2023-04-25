@@ -21,6 +21,16 @@ export const MyLinks = () => {
           <AiFillLinkedin size="2.4rem" />
         </Link>
       </motion.span>
+      
+      <motion.span
+        initial={{ y: -30, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+      >
+        <Link href="https://join.skype.com/invite/vKVMgi5SGjvM" target="_blank" rel="nofollow">
+          <AiFillSkype size="2.4rem" />
+        </Link>
+      </motion.span>
 
       <motion.span
         initial={{ y: -30, opacity: 0 }}
@@ -49,15 +59,6 @@ export const MyLinks = () => {
       >
         <Link href="https://www.youtube.com/@aluckyfinsenpai2622" target="_blank" rel="nofollow">
           <AiFillYoutube size="2.4rem" />
-        </Link>
-      </motion.span>
-      <motion.span
-        initial={{ y: -30, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-      >
-        <Link href="https://join.skype.com/invite/vKVMgi5SGjvM" target="_blank" rel="nofollow">
-          <AiFillSkype size="2.4rem" />
         </Link>
       </motion.span>
     </div>
