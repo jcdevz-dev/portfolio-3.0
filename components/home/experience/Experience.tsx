@@ -13,51 +13,40 @@ export const Experience = () => {
 };
 
 const experience = [
-  // {
-  //   title: "Advance Technologies Integration, LLC.",
-  //   position: "Mid-Level Javascript Developer",
-  //   time: "May 2023 - Present",
-  //   location: "Rocklin, California 95765",
-  //   description:
-  //     "I help build and scale core javascript functions and created test units. Also created reusable components for the front end and Azure API integrations.",
-  //   tech: [
-  //     "JavaScript",
-  //     "Vuejs",
-  //     "Azure API",
-  //     "Git",
-  //     "GitLab",
-  //   ],
-  // },
-  // {
-  //   title: "Rocky Mountain West Insurance LLC.",
-  //   position: "React Developer",
-  //   time: "Aug 2022 - Present",
-  //   location: "Grand Junction, CO",
-  //   description:
-  //     "Create functional, high-level, dynamic and reusable components based on mock-up given. Coordinated on team for QA, bug fixes, features and code refactoring.",
-  //   tech: [
-  //     "React",
-  //     "MongoDB",
-  //     "Postgres",
-  //     "Python",
-  //     "Git",
-  //     "Github",
-  //   ],
-  // },
+  {
+    title: "Rocky Mountain West Insurance LLC.",
+    position: "React Developer",
+    time: "Aug 2022 - October 2023",
+    location: "Grand Junction, CO",
+    description:
+      "Create functional, high-level, dynamic and reusable components based on mock-up given using Next JS. Coordinated on team for QA, bug fixes, features and code refactoring.",
+    tech: [
+      "Next JS",
+      "React",
+      "MongoDB",
+      "Postgres",
+      "Python",
+      "Git",
+      "Github",
+    ],
+  },
   {
     title: "Advance Technologies Integration, LLC.",
-    position: "Mid-Level Javascript Developer",
+    position: "Senior Javascript Developer",
+    time: "May 2023 - August 2023",
+    location: "Rocklin, California 95765",
+    description:
+      "I help build and scale core javascript functions and created test units. Also created reusable components for the front end and Azure API integrations.",
+    tech: ["JavaScript", "Vuejs", "Azure API", "Git", "GitLab"],
+  },
+  {
+    title: "Advance Technologies Integration, LLC.",
+    position: "Senior Javascript Developer",
     time: "Apr 2022 - Jun 2022",
     location: "Rocklin, California 95765",
     description:
       "I help build and scale core javascript functions and created test units. Also created reusable components for the front end and Azure API integrations.",
-    tech: [
-      "JavaScript",
-      "Vuejs",
-      "Azure API",
-      "Git",
-      "GitLab",
-    ],
+    tech: ["JavaScript", "Vuejs", "Azure API", "Git", "GitLab"],
   },
   {
     title: "Rocky Mountain West Insurance LLC.",
@@ -65,15 +54,8 @@ const experience = [
     time: "Aug 2021 - Jan 2022",
     location: "Grand Junction, CO",
     description:
-      "Senior Vuejs Developer for Rocky Mountain West Insurance LLC. Created darshboard, reusable components from scratch and integrate api.",
-    tech: [
-      "Vuejs",
-      "MongoDB",
-      "Postgres",
-      "Python",
-      "Git",
-      "Github",
-    ],
+      "Senior Vuejs Developer for Rocky Mountain West Insurance LLC. Created dashboard, reusable components from scratch and integrate api.",
+    tech: ["Vuejs", "MongoDB", "Postgres", "Python", "Git", "Github"],
   },
   {
     title: "Simple Cloudology",
@@ -100,12 +82,6 @@ const experience = [
     location: "Palanginan, Zambales",
     description:
       "Managed and created complex projects from start to finish and also collaborated with other developers. Translated requirements into polished, high-level web application.",
-    tech: [
-      "Vuejs",
-      "Laravel",
-      "Tailwind",
-      "Git",
-      "Github"
-    ],
+    tech: ["Vuejs", "Laravel", "Tailwind", "Git", "Github"],
   },
 ];
