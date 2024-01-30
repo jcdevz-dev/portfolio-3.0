@@ -8,15 +8,16 @@ export const Heading = () => {
       <MyLinks />
       {/* <div className={styles.headingButtons}> */}
 
-        <OutlineButton onClick={() => window.open("/JOHN CARLO DEVERA.pdf")}>
-          My resume
-        </OutlineButton>
+      <OutlineButton onClick={() => window.open("/John Carlo P. Devera.pdf")}>
+        My resume
+      </OutlineButton>
       {/* </div> */}
     </header>
   );
 };
 
-{/* <a href="https://www.buymeacoffee.com/jcdevz" target="_blank">
+{
+  /* <a href="https://www.buymeacoffee.com/jcdevz" target="_blank">
   <img
     src="https://cdn.buymeacoffee.com/buttons/v2/arial-violet.png"
     alt="Buy Me A Coffee"
@@ -25,4 +26,5 @@ export const Heading = () => {
       width: "185px !important",
     }}
   />
-</a> */}
+</a> */
+}

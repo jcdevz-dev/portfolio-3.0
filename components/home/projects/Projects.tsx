@@ -18,6 +18,26 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Classified",
+    imgSrc: "/project-imgs/agency-listing.png",
+    code: "#",
+    projectLink: "#",
+    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    description: "An Insurance Agency Listing Web Application.",
+    modalContent: (
+      <>
+        <p>
+          Worked as a front-end developer and created dynamic reusable
+          components and base layout from a mock-up.
+        </p>
+        <p>
+          The tech stack is based on Nextjs with the custom tailwind components,
+          connected to a Prisma backend.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Elancerz",
     imgSrc: "/project-imgs/elancerz.png",
     code: "https://www.github.com",
@@ -28,8 +48,9 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Worked as a senior developer and created dynamic reusable components,
-          integrated calendly, messaging and project management features.
+          Worked as a front-end developer and created dynamic reusable
+          components, integrated calendly, messaging and project management
+          features.
         </p>
         <p>
           The tech stack is based on Nextjs with the custom Styled components,
@@ -50,7 +71,7 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Worked as a senior developer for this web application. Integrated
+          Worked as a front-end developer for this web application. Integrated
           api&apos;s, Created dynamic and reusable components.
         </p>
         <p>
@@ -103,6 +124,40 @@ const projects = [
           I also use a plugin for scrapping data from our google play to display
           directly on the landing page.
         </p>
+      </>
+    ),
+  },
+  {
+    title: "Portfolio v.2",
+    imgSrc: "/project-imgs/portfolio-01.png",
+    code: "https://github.com/jcdevz-dev/portfolio",
+    projectLink: "#",
+    tech: ["React", "Styled Components", "Typescript", "Gatsby"],
+    description: "First Portfolio Made with React JS",
+    modalContent: (
+      <>
+        <p>
+          This is my second version of my portfolio that i made to showcase my
+          projects.
+        </p>
+        <p>Trying out gatsby and creating my second version of portfolio</p>
+      </>
+    ),
+  },
+  {
+    title: "Portfolio v.1",
+    imgSrc: "/project-imgs/portfolio-00.png",
+    code: "https://github.com/jcdevz-dev/jc-portfolio",
+    projectLink: "https://jc-devera.vercel.app/",
+    tech: ["React", "Styled Components", "Typescript"],
+    description: "First Portfolio Made with React JS",
+    modalContent: (
+      <>
+        <p>
+          This is my first version of my portfolio that i made to showcase my
+          projects.
+        </p>
+        <p>First step for learning React JS and creating my portfolio</p>
       </>
     ),
   },

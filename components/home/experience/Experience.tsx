@@ -32,7 +32,7 @@ const experience = [
   },
   {
     title: "Advance Technologies Integration, LLC.",
-    position: "Senior Javascript Developer",
+    position: "Javascript Developer",
     time: "May 2023 - August 2023",
     location: "Rocklin, California 95765",
     description:
@@ -41,7 +41,7 @@ const experience = [
   },
   {
     title: "Advance Technologies Integration, LLC.",
-    position: "Senior Javascript Developer",
+    position: "Javascript Developer",
     time: "Apr 2022 - Jun 2022",
     location: "Rocklin, California 95765",
     description:
@@ -50,20 +50,20 @@ const experience = [
   },
   {
     title: "Rocky Mountain West Insurance LLC.",
-    position: "Senior Vuejs Developer",
+    position: "Vuejs Developer",
     time: "Aug 2021 - Jan 2022",
     location: "Grand Junction, CO",
     description:
-      "Senior Vuejs Developer for Rocky Mountain West Insurance LLC. Created dashboard, reusable components from scratch and integrate api.",
+      "Vuejs Developer for Rocky Mountain West Insurance LLC. Created dashboard, reusable components from scratch and integrate api.",
     tech: ["Vuejs", "MongoDB", "Postgres", "Python", "Git", "Github"],
   },
   {
     title: "Simple Cloudology",
-    position: "Senior React Developer",
+    position: "React Developer",
     time: "Jan 2020 - April 2021",
     location: "Sheridan, Wyoming",
     description:
-      "Worked as a senior developer and created dynamic reusable components, integrate calendly, messaging functionality and project management features.",
+      "Worked as a developer and created dynamic reusable components, integrate calendly, messaging functionality and project management features.",
     tech: [
       "React",
       "Nextjs",
@@ -77,7 +77,7 @@ const experience = [
   },
   {
     title: "IFormat Logic",
-    position: "Senior Fullstack Developer",
+    position: "Fullstack Developer",
     time: "Aug 2020 - Dec 2020",
     location: "Palanginan, Zambales",
     description:
